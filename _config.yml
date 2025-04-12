@@ -53,6 +53,10 @@ plugins:
   - jekyll-gist
   - jemoji
   - jekyll-include-cache
+  - jekyll-feed
+
+feed:
+  disable: true # disable the feed if you don't want it
 
 author:
   name   : "Ritvik Mahajan"

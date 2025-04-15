@@ -8,3 +8,11 @@ author_profile: true
 
 
 I am a master's student at the KTH Royal Institute of technology pursuing MSc in Systems, Control and Robotics. I recieved my B. Tech (with honours) in Electrical Engineering from IIT Roorkee in 2024.
+
+## News
+
+<ul>
+  {% for item in site.data.news %}
+    <li><strong>{{ item.date }}:</strong> {{ item.event }}</li>
+  {% endfor %}
+</ul>

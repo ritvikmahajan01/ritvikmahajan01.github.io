@@ -55,8 +55,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-feed
 
-feed:
-  disable: true # disable the feed if you don't want it
+
 
 author:
   name   : "Ritvik Mahajan"
@@ -76,7 +75,10 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ritvikmahajan01/"
 
+rss:
+  enabled: false
 
+  
 # footer:
 #   links:
 #     - label: "Twitter"

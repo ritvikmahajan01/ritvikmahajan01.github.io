@@ -75,10 +75,10 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ritvikmahajan01/"
 
-rss:
-  enabled: false
+atom_feed:
+  hide: true
 
-  
+
 # footer:
 #   links:
 #     - label: "Twitter"
